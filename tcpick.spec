@@ -3,7 +3,7 @@ Summary(pl):	Analizator sieci
 Name:		tcpick
 Version:	0.2.1
 Release:	1
-License:	GPL
+License:	GPL v2
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/tcpick/%{name}-%{version}.tar.gz
 # Source0-md5:	bb94f2f9ea81aeb645619fbe9b3b9a29
