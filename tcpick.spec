@@ -5,7 +5,7 @@ Version:	0.2.1
 Release:	1
 License:	GPL
 Group:		Applications/System
-Source0:	http://download.sourceforge.net/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/tcpick/%{name}-%{version}.tar.gz
 # Source0-md5:	bb94f2f9ea81aeb645619fbe9b3b9a29
 URL:		http://tcpick.sourceforge.net/
 BuildRequires:	libpcap-devel
