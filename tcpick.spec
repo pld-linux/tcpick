@@ -28,16 +28,15 @@ tcp i zapisuje zdobyte dane do pliku lub wy¶wietla je w terminalu.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man8}
 
-install src/tcpick $RPM_BUILD_ROOT%{_bindir}
-install tcpick.8 $RPM_BUILD_ROOT%{_mandir}/man8
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS ChangeLog EXAMPLES README NEWS
+%doc AUTHORS ChangeLog EXAMPLES README doc/*.html
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man8/*
