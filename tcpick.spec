@@ -28,9 +28,12 @@ tcp i zapisuje zdobyte dane do pliku lub wy¶wietla je w terminalu.
 
 %install
 rm -rf $RPM_BUILD_ROOT
+install -d $RPM_BUILD_ROOT%{_mandir}/it/man8
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
+mv $RPM_BUILD_ROOT%{_mandir}/man8/tcpick_italian.8 \
+   $RPM_BUILD_ROOT%{_mandir}/it/man8/tcpick.8
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -40,3 +43,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc AUTHORS ChangeLog EXAMPLES README doc/*.html
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man8/*
+%lang(it) %{_mandir}/it/man8/*
