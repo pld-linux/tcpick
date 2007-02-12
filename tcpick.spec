@@ -1,5 +1,5 @@
 Summary:	Network analyzer
-Summary(pl.UTF-8):   Analizator sieci
+Summary(pl.UTF-8):	Analizator sieci
 Name:		tcpick
 Version:	0.2.1
 Release:	1
