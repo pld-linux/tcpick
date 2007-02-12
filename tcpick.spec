@@ -1,5 +1,5 @@
 Summary:	Network analyzer
-Summary(pl):	Analizator sieci
+Summary(pl.UTF-8):   Analizator sieci
 Name:		tcpick
 Version:	0.2.1
 Release:	1
@@ -15,9 +15,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 tcpick is a textmode sniffer libpcap-based that can track tcp streams
 and saves the captured data in files or displays them in the terminal.
 
-%description -l pl
-tcpick jest sniferem opartym o bibliotekê libpcap. Wykrywa strumienie
-tcp i zapisuje zdobyte dane do pliku lub wy¶wietla je w terminalu.
+%description -l pl.UTF-8
+tcpick jest sniferem opartym o bibliotekÄ™ libpcap. Wykrywa strumienie
+tcp i zapisuje zdobyte dane do pliku lub wyÅ›wietla je w terminalu.
 
 %prep
 %setup -q
