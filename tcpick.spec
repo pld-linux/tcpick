@@ -2,7 +2,7 @@ Summary:	Network analyzer
 Summary(pl.UTF-8):	Analizator sieci
 Name:		tcpick
 Version:	0.2.1
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Applications/System
 Source0:	http://dl.sourceforge.net/tcpick/%{name}-%{version}.tar.gz
